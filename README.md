@@ -4,7 +4,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/rasio-ketersediaan-sekolah-smp-mts/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rasio-ketersediaan-sekolah-smp-mts/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/bantenprov/rasio-ketersediaan-sekolah-smp-mts/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/rasio-ketersediaan-sekolah-smp-mts/build-status/master)
 
-Rasio Ketersediaan Sekolah (RKS) SD / MI
+Rasio Ketersediaan Sekolah (RKS) SMP / MTs
 
 ## install via composer
 
@@ -40,7 +40,7 @@ $ git clone https://github.com/bantenprov/rasio-ketersediaan-sekolah-smp-mts.git
     Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
     Illuminate\Cookie\CookieServiceProvider::class,
     //....
-    Bantenprov\RKSekolahSDMTS\RKSekolahSDMTSServiceProvider::class,
+    Bantenprov\RKSekolahSMPMTS\RKSekolahSMPMTSServiceProvider::class,
 
 ```
 
@@ -71,7 +71,7 @@ children: [
   {
     path: '/dashboard/rk-sekolah-smp-mts',
     components: {
-      main: resolve => require(['./components/views/bantenprov/rk-sekolah-smp-mts/DashboardrkSekolahSDMTS.vue'], resolve),
+      main: resolve => require(['./components/views/bantenprov/rk-sekolah-smp-mts/DashboardRKSekolahSMPMTS.vue'], resolve),
       navbar: resolve => require(['./components/Navbar.vue'], resolve),
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
@@ -91,7 +91,7 @@ children: [
     {
       path: '/admin/dashboard/rk-sekolah-smp-mts',
       components: {
-        main: resolve => require(['./components/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSAdmin.show.vue'], resolve),
+        main: resolve => require(['./components/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSAdmin.show.vue'], resolve),
         navbar: resolve => require(['./components/Navbar.vue'], resolve),
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
@@ -137,37 +137,37 @@ children: [
 
 ```javascript
 
-import rkSekolahSDMTS from './components/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTS.chart.vue';
-Vue.component('echarts-rk-sekolah-smp-mts', rkSekolahSDMTS);
+import RKSekolahSMPMTS from './components/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTS.chart.vue';
+Vue.component('echarts-rk-sekolah-smp-mts', RKSekolahSMPMTS);
 
-import rkSekolahSDMTSKota from './components/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSKota.chart.vue';
-Vue.component('echarts-rk-sekolah-smp-mts-kota', rkSekolahSDMTSKota);
+import RKSekolahSMPMTSKota from './components/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSKota.chart.vue';
+Vue.component('echarts-rk-sekolah-smp-mts-kota', RKSekolahSMPMTSKota);
 
-import rkSekolahSDMTSTahun from './components/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSTahun.chart.vue';
-Vue.component('echarts-rk-sekolah-smp-mts-tahun', rkSekolahSDMTSTahun);
+import RKSekolahSMPMTSTahun from './components/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSTahun.chart.vue';
+Vue.component('echarts-rk-sekolah-smp-mts-tahun', RKSekolahSMPMTSTahun);
 
-import rkSekolahSDMTSAdminShow from './components/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSAdmin.show.vue';
-Vue.component('admin-view-rk-sekolah-smp-mts-tahun', rkSekolahSDMTSAdminShow);
+import RKSekolahSMPMTSAdminShow from './components/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSAdmin.show.vue';
+Vue.component('admin-view-rk-sekolah-smp-mts-tahun', RKSekolahSMPMTSAdminShow);
 
 //== Echarts Angka Partisipasi Kasar
 
-import rkSekolahSDMTSBar01 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSBar01.vue';
-Vue.component('rk-sekolah-smp-mts-bar-01', rkSekolahSDMTSBar01);
+import RKSekolahSMPMTSBar01 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSBar01.vue';
+Vue.component('rk-sekolah-smp-mts-bar-01', RKSekolahSMPMTSBar01);
 
-import rkSekolahSDMTSBar02 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSBar02.vue';
-Vue.component('rk-sekolah-smp-mts-bar-02', rkSekolahSDMTSBar02);
+import RKSekolahSMPMTSBar02 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSBar02.vue';
+Vue.component('rk-sekolah-smp-mts-bar-02', RKSekolahSMPMTSBar02);
 
 //== mini bar charts
-import rkSekolahSDMTSBar03 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSBar03.vue';
-Vue.component('rk-sekolah-smp-mts-bar-03', rkSekolahSDMTSBar03);
+import RKSekolahSMPMTSBar03 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSBar03.vue';
+Vue.component('rk-sekolah-smp-mts-bar-03', RKSekolahSMPMTSBar03);
 
-import rkSekolahSDMTSPie01 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSPie01.vue';
-Vue.component('rk-sekolah-smp-mts-pie-01', rkSekolahSDMTSPie01);
+import RKSekolahSMPMTSPie01 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSPie01.vue';
+Vue.component('rk-sekolah-smp-mts-pie-01', RKSekolahSMPMTSPie01);
 
-import rkSekolahSDMTSPie02 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSPie02.vue';
-Vue.component('rk-sekolah-smp-mts-pie-02', rkSekolahSDMTSPie02);
+import RKSekolahSMPMTSPie02 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSPie02.vue';
+Vue.component('rk-sekolah-smp-mts-pie-02', RKSekolahSMPMTSPie02);
 
 //== mini pie charts
-import rkSekolahSDMTSPie03 from './components/views/bantenprov/rk-sekolah-smp-mts/rkSekolahSDMTSPie03.vue';
-Vue.component('rk-sekolah-smp-mts-pie-03', rkSekolahSDMTSPie03);
+import RKSekolahSMPMTSPie03 from './components/views/bantenprov/rk-sekolah-smp-mts/RKSekolahSMPMTSPie03.vue';
+Vue.component('rk-sekolah-smp-mts-pie-03', RKSekolahSMPMTSPie03);
 ```
