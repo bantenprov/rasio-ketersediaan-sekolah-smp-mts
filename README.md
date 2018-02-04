@@ -40,7 +40,7 @@ $ git clone https://github.com/bantenprov/rasio-ketersediaan-sekolah-smp-mts.git
     Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
     Illuminate\Cookie\CookieServiceProvider::class,
     //....
-    Bantenprov\rkSekolahSDMTS\rkSekolahSDMTSServiceProvider::class,
+    Bantenprov\RKSekolahSDMTS\RKSekolahSDMTSServiceProvider::class,
 
 ```
 
