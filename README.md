@@ -76,7 +76,7 @@ children: [
       sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
     },
     meta: {
-      title: "AP Kasar"
+      title: "Rasio Ketersediaan Sekolah SMP/Mts"
     }
   }
 ```
@@ -96,7 +96,7 @@ children: [
         sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
       },
       meta: {
-        title: "AP Kasar"
+        title: "Rasio Ketersediaan Sekolah SMP/Mts"
       }
     }
  //== ...   
