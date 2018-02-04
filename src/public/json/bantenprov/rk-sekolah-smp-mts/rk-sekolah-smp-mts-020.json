@@ -1,100 +1,308 @@
 [
   {
     "xAxis": {
-      "category": "Angkatan Kerja",
+      "type": "category",
       "region": "Provinsi",
       "name": "Banten",
+      "yyyy": "2013",
+      "title": "Jumlah Sekolah SMP/Mts",
+      "index": "Banten-2013-jumlah-smp-mts",
       "data": [
-        "2012",
-        "2013",
-        "2014",
-        "2015",
-        "2016"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          5.18,
-          5.18,
-          5.34,
-          5.33,
-          5.59
+          284,
+          352,
+          484,
+          341,
+          232,
+          74,
+          98,
+          167
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "Angkatan Kerja",
-      "region": "Negara",
-      "name": "Indonesia",
-      "data": [
-        "2012",
-        "2013",
-        "2014",
-        "2015",
-        "2016"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          119.85,
-          120.17,
-          121.87,
-          122.38,
-          125.44         
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "Rasio Ketersediaan Sekolah SMP-MTs",
+      "type": "category",
       "region": "Provinsi",
       "name": "Banten",
+      "yyyy": "2014",
+      "index": "Banten-2014",
+      "title": "Jumlah Sekolah SMP/Mts",
+      "index": "Banten-2014-jumlah-smp-mts",
       "data": [
-        "2012",
-        "2013",
-        "2014",
-        "2015",
-        "2016"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          4.66,
-          4.69,
-          4.86,
-          4.83,
-          5.09          
+          303,
+          394,
+          527,
+          365,
+          236,
+          81,
+          121,
+          218
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "Rasio Ketersediaan Sekolah SMP-MTs",
-      "region": "Negara",
-      "name": "Indonesia",
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014",
+      "index": "Banten-2014",
+      "title": "Jumlah Sekolah SMP/Mts",
+      "index": "Banten-2014-jumlah-smp-mts",
       "data": [
-        "2012",
-        "2013",
-        "2014",
-        "2015",
-        "2016"
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
       ]
     },
     "series": [
       {
         "data": [
-          112.5,
-          112.76,
-          114.63,
-          114.82,
-          118.41         
+          303,
+          408,
+          540,
+          365,
+          236,
+          84,
+          131,
+          218
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2013",
+      "title": "Penduduk Usia 13-15 Tahun",
+      "index": "Banten-2013-penduduk-usia-13-15",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          73201,
+          78399,
+          171258,
+          88803,
+          85577,
+          21323,
+          37035,
+          66461
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014",
+      "title": "Penduduk Usia 13-15 Tahun",
+      "index": "Banten-2014-penduduk-usia-13-15",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          71810,
+          77301,
+          173335,
+          87571,
+          85696,
+          21216,
+          36969,
+          67128
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014",
+      "title": "Penduduk Usia 13-15 Tahun",
+      "index": "Banten-2014-penduduk-usia-13-15",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          70741,
+          76411,
+          175757,
+          86576,
+          86037,
+          21163,
+          37000,
+          67976
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2013",
+      "title": "RKS SMP/MTs",
+      "index": "Banten-2013-rks-smp-mts",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          38.8,
+          44.9,
+          28.26,
+          38.4,
+          27.11,
+          34.7,
+          26.46,
+          25.13          
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014",
+      "title": "RKS SMP/MTs",
+      "index": "Banten-2014-rks-smp-mts",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          42.19,
+          50.97,
+          30.4,
+          41.68,
+          27.54,
+          38.18,
+          32.73,
+          32.48       
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "RKS SMP/MTs",
+      "index": "Banten-2015-rks-smp-mts",
+      "data": [
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Tangerang",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota Cilegon",
+        "Kota Serang",
+        "Kota Tangerang Selatan"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          42.83,
+          53.4,
+          30.72,
+          42.16,
+          27.43,
+          39.69,
+          35.41,
+          32.07
         ]
       }
     ]

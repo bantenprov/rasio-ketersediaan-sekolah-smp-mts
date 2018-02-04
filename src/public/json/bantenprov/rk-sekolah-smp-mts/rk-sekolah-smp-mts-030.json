@@ -1,50 +1,63 @@
 [
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
+      "category": "Jumlah Sekolah SMP/MT",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
         "2012",
         "2013",
-        "2014",
-        "2015",
-        "2016"
+        "2014"
       ]
     },
     "series": [
       {
         "data": [
-          90.06,
-          90.46,
-          90.93,
-          90.45,
-          91.08
+          2032,
+          2245,
+          2285
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
-      "region": "Negara",
-      "name": "Indonesia",
+      "category": "Penduduk Usia 13-15 Tahun",
+      "region": "Provinsi",
+      "name": "Banten",
       "data": [
         "2012",
         "2013",
-        "2014",
-        "2015",
-        "2016"
+        "2014"
       ]
     },
     "series": [
       {
         "data": [
-          93.87,
-          93.83,
-          94.06,
-          93.82,
-          94.39
+          622057,
+          621027,
+          621660
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "RKS SMP/MTs",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2012",
+        "2013",
+        "2014"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          32.67,
+          36.15,
+          36.76          
         ]
       }
     ]
